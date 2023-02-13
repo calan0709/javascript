@@ -1,0 +1,40 @@
+nav{ 
+        h1{color: rgb(25, 36, 180);
+                font-size: 40px;}
+        .paquetes{width: 100%;
+                display: flex;
+                justify-content: center;
+                margin: 1px;
+                
+                .paquetebrasil{width: 100%;
+                        margin: 2px;
+                        border: solid;
+                        border-color: rgb(12, 100, 141);
+                        h2{padding: 2px;
+                                margin: 2px;}
+                        img{width: 100%;
+                                justify-content: center;}
+                        }
+                .paqueteperu{width: 100%;
+                        margin: 2px;
+                        border: solid;
+                        border-color: rgb(12, 100, 141);
+                        h2{padding: 2px;
+                                margin: 2px;}
+                        img{width: 100%;
+                                justify-content: center;}
+                        }
+                .paquetecolombia{width: 100%;
+                        margin: 2px;
+                        border: solid;
+                        border-color: rgb(12, 100, 141);
+                        h2{padding: 2px;
+                                margin: 2px;}
+                        img{width: 100%;
+                                justify-content: center;}
+                        }
+        }
+
+
+
+}

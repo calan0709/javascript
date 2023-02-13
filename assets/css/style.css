@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(17, 198, 211);
+}
+
+nav h1 {
+  color: rgb(25, 36, 180);
+  font-size: 40px;
+}
+nav .paquetes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 1px;
+}
+nav .paquetes .paquetebrasil {
+  width: 100%;
+  margin: 2px;
+  border: solid;
+  border-color: rgb(12, 100, 141);
+}
+nav .paquetes .paquetebrasil h2 {
+  padding: 2px;
+  margin: 2px;
+}
+nav .paquetes .paquetebrasil img {
+  width: 100%;
+  justify-content: center;
+}
+nav .paquetes .paqueteperu {
+  width: 100%;
+  margin: 2px;
+  border: solid;
+  border-color: rgb(12, 100, 141);
+}
+nav .paquetes .paqueteperu h2 {
+  padding: 2px;
+  margin: 2px;
+}
+nav .paquetes .paqueteperu img {
+  width: 100%;
+  justify-content: center;
+}
+nav .paquetes .paquetecolombia {
+  width: 100%;
+  margin: 2px;
+  border: solid;
+  border-color: rgb(12, 100, 141);
+}
+nav .paquetes .paquetecolombia h2 {
+  padding: 2px;
+  margin: 2px;
+}
+nav .paquetes .paquetecolombia img {
+  width: 100%;
+  justify-content: center;
+}
