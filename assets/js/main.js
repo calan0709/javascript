@@ -13,13 +13,19 @@ console.log("Apellido : " + apellido)
 
 documento = prompt("Ingresa DNI")
 console.log("Documento : " + documento)
+ 
 
-alert(nombre + " solo tenes 3 paquetes de viajes ")
-alert("Brasil, Colombia, Peru")
+const paquetes = [
+        {destino:"brasil", precio:70000 },
+        {destino:"colombia",precio:90000 },
+        {destino:"peru", precio:80000 },
+];
+//for( let i=0; i<paquetes.length; i+=1){console.log(paquetes[i].destino)}
+for(let paquete of paquetes){alert("Paquete a " + paquete.destino + " Precio " + paquete.precio);
+                                console.log("Paquete a " + paquete.destino + " Precio " + paquete.precio)}
 
 let Destino = prompt("Ingrese Destino")
 console.log("Destino : " + Destino)
-
 
 if(Destino == "brasil"){
         //a cobrar
@@ -53,7 +59,7 @@ if(Destino == "brasil"){
                                 default:
                                         console.log("pagaste con " + MetodoDePago)
                         }
- 
+                console.log("info Paquete")
                 let Paquete = 70000
                         console.log("Paquete : " + Paquete)
                 let hospedaje = "hotel"
@@ -98,7 +104,7 @@ else if(Destino == "colombia"){
                                 default:
                                         console.log("pagaste con " + MetodoDePago)
                         }
- 
+                console.log("info Paquete")
                 let Paquete = 90000
                         console.log("Paquete : " + Paquete)
                 let hospedaje = "hotel"
@@ -143,7 +149,8 @@ else if(Destino == "peru"){
                                 default:
                                         console.log("pagaste con " + MetodoDePago)
                         }
- 
+
+                console.log("info Paquete")
                 let Paquete = 80000
                         console.log("Paquete : " + Paquete)
                 let hospedaje = "hotel"
@@ -156,7 +163,5 @@ else if(Destino == "peru"){
                         console.log("Excursiones : " + excursiones)
                 let dias = 10
                         console.log("Dias : " + dias)}
-else{console.log("No Existe viaje")}
 
 
- 
