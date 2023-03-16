@@ -1,10 +1,33 @@
 body {
-  background-color: rgb(17, 198, 211);
+  background-color: rgb(19, 178, 206);
 }
 
 nav h1 {
-  color: rgb(25, 36, 180);
+  color: rgb(28, 40, 202);
   font-size: 40px;
+}
+nav h2 {
+  color: rgb(25, 26, 25);
+}
+nav .datos {
+  display: flex;
+  flex-direction: column;
+}
+nav .datos .dato {
+  margin: 6px;
+  padding: 6px;
+}
+nav .datos .dato input {
+  width: 15%;
+  margin: 3px;
+  padding: 3px;
+}
+nav .datos .dato .nombre {
+  background-color: rgb(185, 231, 16);
+}
+nav .datos button {
+  width: 20%;
+  margin: 4px;
 }
 nav .paquetes {
   width: 100%;
@@ -12,45 +35,53 @@ nav .paquetes {
   justify-content: center;
   margin: 1px;
 }
-nav .paquetes .paquetebrasil {
+nav .paquetes .viajes {
   width: 100%;
   margin: 2px;
   border: solid;
   border-color: rgb(12, 100, 141);
 }
-nav .paquetes .paquetebrasil h2 {
-  padding: 2px;
-  margin: 2px;
+nav .paquetes .viajes h2 {
+  padding: 4px;
+  margin: 4px;
 }
-nav .paquetes .paquetebrasil img {
+nav .paquetes .viajes img {
   width: 100%;
   justify-content: center;
 }
-nav .paquetes .paqueteperu {
+nav .paquetes .viajes h3 {
+  color: rgb(11, 66, 66);
+  padding: 3px;
+  margin: 3px;
+}
+nav .paquetes .viajes .caja {
   width: 100%;
-  margin: 2px;
-  border: solid;
-  border-color: rgb(12, 100, 141);
 }
-nav .paquetes .paqueteperu h2 {
-  padding: 2px;
-  margin: 2px;
+nav .paquetes .viajes .caja textarea {
+  width: 98%;
+  padding: 1px;
+  margin: 1px;
+  text-align: center;
+  align-items: center;
 }
-nav .paquetes .paqueteperu img {
-  width: 100%;
-  justify-content: center;
+nav .masinfo {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  text-align: center;
+  align-items: center;
 }
-nav .paquetes .paquetecolombia {
-  width: 100%;
-  margin: 2px;
-  border: solid;
-  border-color: rgb(12, 100, 141);
+nav .masinfo #cobro {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
-nav .paquetes .paquetecolombia h2 {
-  padding: 2px;
-  margin: 2px;
+nav .masinfo #cobro input {
+  width: 20%;
 }
-nav .paquetes .paquetecolombia img {
-  width: 100%;
-  justify-content: center;
+nav .masinfo input {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  width: 20%;
+  text-align: center;
 }

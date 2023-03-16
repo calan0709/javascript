@@ -1,40 +1,61 @@
 nav{ 
-        h1{color: rgb(25, 36, 180);
+        h1{color: rgb(28, 40, 202);
                 font-size: 40px;}
+        h2{color: rgb(25, 26, 25);}
+        .datos{display: flex;
+                flex-direction: column;
+                .dato{margin: 6px;
+                        padding: 6px;
+                        input{width: 15%;
+                                margin: 3px;
+                                padding: 3px;}
+                        .nombre{background-color: rgb(185, 231, 16);}
+                }
+        button{width: 20%;
+                margin: 4px;}
+        }
         .paquetes{width: 100%;
                 display: flex;
                 justify-content: center;
                 margin: 1px;
                 
-                .paquetebrasil{width: 100%;
+                .viajes{width: 100%;
                         margin: 2px;
                         border: solid;
                         border-color: rgb(12, 100, 141);
-                        h2{padding: 2px;
-                                margin: 2px;}
+                        h2{padding: 4px;
+                                margin: 4px;}
                         img{width: 100%;
                                 justify-content: center;}
+                        h3{color: rgb(11, 66, 66);
+                        padding:3px;
+                        margin: 3px;}
+                        .caja{width: 100%;
+                                textarea{width: 98%;
+                                        padding: 1px;
+                                        margin: 1px;
+                                        text-align: center;
+                                        align-items: center;}}
                         }
-                .paqueteperu{width: 100%;
-                        margin: 2px;
-                        border: solid;
-                        border-color: rgb(12, 100, 141);
-                        h2{padding: 2px;
-                                margin: 2px;}
-                        img{width: 100%;
-                                justify-content: center;}
-                        }
-                .paquetecolombia{width: 100%;
-                        margin: 2px;
-                        border: solid;
-                        border-color: rgb(12, 100, 141);
-                        h2{padding: 2px;
-                                margin: 2px;}
-                        img{width: 100%;
-                                justify-content: center;}
-                        }
+                
         }
+        .masinfo{display: grid;
+                grid-template-columns: repeat(2,2fr);
+                text-align: center;
+                align-items: center;
 
+                #cobro{display: flex;
+                        flex-direction: column;
+                        text-align: center;
+                        align-items: center;
+                input{width: 20%;}
+                
+                }
+                input{grid-column: 2/3;
+                        grid-row: 2/3;
+                        width: 20%;
+                        text-align: center;}
+        }
 
 
 }

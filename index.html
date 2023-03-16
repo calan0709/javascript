@@ -8,23 +8,79 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <nav>
+    <nav id="viajando">
         <h1>Bienvenidos a Viajar</h1>
+        <h2>Ingresar Datos</h2>
+        <form id="datos">
+                <div class="dato">
+            <label for="Nombre">Nombre</label>
+            <input type="text" class="nombre">
+                </div>
+                <div class="dato">
+            <label for="Apellido">Apellido</label>
+            <input type="text" class="apellido">
+                </div>
+                <div class="dato">
+            <label for="DNI">DNI</label>
+            <input type="text" class="dni">
+                </div>
+                <div class="dato">
+            <label for="paquete">Seleccionar Paquete</label>
+            <input type="text" class="paquete" style="background-color: rgb(255, 255, 255);">
+                </div>
+            <input type="submit" class="siquiente" value="Siguiente...">
+        </form>
+
         <div class="paquetes">
-            <div class="paquetebrasil">
+            <div class="viajes">
                 <h2>BRASIL</h2>
                 <img src="./assets/IMG/rio.webp" alt="">
+                <div class="caja">
+                    
+                    <textarea name="" id="brasildatos" cols="50" rows="4" readonly></textarea>
+                </div>
             </div>
-            <div class="paqueteperu">
+            <div class="viajes">
                 <h2>PERU</h2>
                 <img src="./assets/IMG/peru.webp" alt="">
+                <div class="caja">
+                    
+                    <textarea name="" id="perudatos" cols="50" rows="4" readonly></textarea>
+                </div>
             </div>
-            <div class="paquetecolombia">
+            <div class="viajes">
                 <h2>COLOMBIA</h2>
                 <img src="./assets/IMG/colombia.webp" alt="">
+                <div class="caja">
+                    <textarea name="" id="colombiadatos" cols="50" rows="4" readonly></textarea>
+                </div>
             </div>
             
         </div>
+<!--paquetes--> 
+<div class="masinfo">   
+        <div>
+            <h2>Paquete</h2>
+            <textarea name="viaje" id="destino" cols="50" rows="6" readonly></textarea>
+        </div>
+        <div id="cobro">
+            <label for="">Costo de Paquete</label>
+            <input type="text" class="costodepaquete">
+            <label for="medio">Medio de Pago</label>
+        <div class="pago">
+            <button class="btn1">Tarjetas</button>
+            <button class="btn2">Trasferencia</button>
+            <button class="btn3">Efectivo</button>
+        </div>
+            <label for="" class="llenar" >-</label>
+            <input type="text" class="cuotas">
+            <label for="">Total+interes</label>
+            <input type="text" class="total">
+
+
+        </div>
+    <input type="submit" id="cierre">
+</div>
     </nav>
     
     <header>
