@@ -6,91 +6,157 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    
 </head>
 <body>
+    
     <nav id="viajando">
-        <h1>Bienvenidos a Viajar</h1>
-        <h2>Ingresar Datos</h2>
-        <form id="datos">
-                <div class="dato">
-            <label for="Nombre">Nombre</label>
-            <input type="text" class="nombre">
-                </div>
-                <div class="dato">
-            <label for="Apellido">Apellido</label>
-            <input type="text" class="apellido">
-                </div>
-                <div class="dato">
-            <label for="DNI">DNI</label>
-            <input type="text" class="dni">
-                </div>
-                <div class="dato">
-            <label for="paquete">Seleccionar Paquete</label>
-            <input type="text" class="paquete" style="background-color: rgb(255, 255, 255);">
-                </div>
-            <input type="submit" class="siquiente" value="Siguiente...">
-        </form>
-
-        <div class="paquetes">
-            <div class="viajes">
-                <h2>BRASIL</h2>
-                <img src="./assets/IMG/rio.webp" alt="">
-                <div class="caja">
-                    
-                    <textarea name="" id="brasildatos" cols="50" rows="4" readonly></textarea>
-                </div>
-            </div>
-            <div class="viajes">
-                <h2>PERU</h2>
-                <img src="./assets/IMG/peru.webp" alt="">
-                <div class="caja">
-                    
-                    <textarea name="" id="perudatos" cols="50" rows="4" readonly></textarea>
-                </div>
-            </div>
-            <div class="viajes">
-                <h2>COLOMBIA</h2>
-                <img src="./assets/IMG/colombia.webp" alt="">
-                <div class="caja">
-                    <textarea name="" id="colombiadatos" cols="50" rows="4" readonly></textarea>
-                </div>
-            </div>
-            
-        </div>
-<!--paquetes--> 
-<div class="masinfo">   
-        <div>
-            <h2>Paquete</h2>
-            <textarea name="viaje" id="destino" cols="50" rows="6" readonly></textarea>
-        </div>
-        <div id="cobro">
-            <label for="">Costo de Paquete</label>
-            <input type="text" class="costodepaquete">
-            <label for="medio">Medio de Pago</label>
-        <div class="pago">
-            <button class="btn1">Tarjetas</button>
-            <button class="btn2">Trasferencia</button>
-            <button class="btn3">Efectivo</button>
-        </div>
-            <label for="" class="llenar" >-</label>
-            <input type="text" class="cuotas">
-            <label for="">Total+interes</label>
-            <input type="text" class="total">
-
-
-        </div>
-    <input type="submit" id="cierre">
-</div>
+        <span class="loader"></span>
+        <i class="fa-solid fa-ellipsis-stroke"></i>
+        <ul>
+            <img class="logotaller" src="./assets/IMG/viaje.png" alt="">
+            <li class="repintado"><a href="" class="verviajes">Viajes</a></li>
+            <li class="detailing"><a href="" class="verconsultas">Consultas</a></li>
+            <li class="ploteo"><a href="" class="verreservas">Reservas</a></li>
+        </ul>
     </nav>
     
     <header>
-        
+        <img id="fondo" src="./assets/IMG/viajefondo.jpg" alt="">
     </header>
 
-    <main></main>
+    <main>
+        
+    <div class="Emergentebienvenido">
+        <div class="tarjeta1">
+            <h1>Bienvenidos a Viajar</h1>
+            <h2>Ingresa tu Nombre</h2>
+            <form id="datos">
+                    <div class="dato">
+                <label for="Nombre">Nombre :</label>
+                <input type="text" class="nombre">
+                    </div>
+                    <div class="dato">
+                <label for="Apellido">Apellido :</label>
+                <input type="text" class="apellido">
+                    </div>
+                  <input class="enviar" type="submit" value="Continuar">
+                  <img id="cerrarbienvenida" src="./assets/IMG/cerrado.png" alt="">
+            </form>
+        </div>
+    </div>
+<div class="tarjetas">
+    <img id="cerrartarjetas" src="./assets/IMG/cerrado.png" alt="">
+        
+        <div class="paquetes">
+            <div class="viajes" id="brasil">
+                <h2>BRASIL</h2>
+                <img src="./assets/IMG/rio.webp" alt="">
+                <div class="caja1">
+                    
+                </div>
+            </div>
+            <div class="viajes" id="peru">
+                <h2>PERU</h2>
+                <img src="./assets/IMG/peru.webp" alt="">
+                <div class="caja2">
+                    
+                </div>
+            </div>
+            <div class="viajes" id="colombia">
+                <h2>COLOMBIA</h2>
+                <img src="./assets/IMG/colombia.webp" alt="">
+                <div class="caja3">
+
+                 </div>
+            </div>
+            <div class="viajes" id="mexico">
+                <h2>MEXICO</h2>
+                <img src="./assets/IMG/MEXICO-1024x696-1.jpg" alt="">
+                <div class="caja4">
+                    
+                </div>
+            </div>
+            <div class="viajes" id="uruguay">
+                <h2>URUGUAY</h2>
+                <img src="./assets/IMG/uru2.jpg" alt="">
+                <div class="caja5">
+                    
+                </div>
+            </div>
+            <div class="viajes" id="chile">
+                <h2>CHILE</h2>
+                <img src="./assets/IMG/abrir-uma-empresa-no-Chile-1-1.jpg" alt="">
+                <div class="caja6">
+                    
+                </div>
+            </div>
+        </div>
+</div>
+<!--paquetes--> 
+<div class="cuestion">
+    <div class="consultasusuario">
+        <h2 class="dato">Consultas</h2>
+        <img id="cerrar" src="./assets/IMG/cerrado.png" alt="">
+            <form id="data">
+            
+                <label for="Nombre">Nombre :</label>
+                <input type="text" class="name">
+                <label for="Apellido">Apellido :</label>
+                <input type="text" class="lastname">
+                <label for="Apellido">Mail :</label>
+                <input type="text" class="mail">
+                <label for="">Consulta</label>
+                <textarea name="" id="writing" cols="35" rows="8"></textarea>
+                <input type="submit" class="enviando" value="Enviar...">
+            </form>
+            
+    </div>
+</div>
+<div class="reservasusuario">
+    <img id="cerrarreserva" src="./assets/IMG/cerrado.png" alt="">
+        <form class="ventanas" action="">
+                <div class="ventanareserva">    
+                    <h2>Reservas</h2>
+                    <label for="Nombre">Nombre :</label>
+                    <input type="text" class="datanombre">
+                    <label for="Apellido">Apellido :</label>
+                    <input type="text" class="dataapellido">
+                    <label for="DNI">DNI :</label>
+                    <input type="text" class="datadni">
+                    <label for="Apellido">Mail :</label>
+                    <input type="text" class="datamail">
+                    <label for="paquete">Paquete Seleccionado :</label>
+                    <input type="text" class="dataviaje" value="..." readOnly >
+                    <button class="btnselect">Seleccionar Viaje</button>
+                </div>
+                <div class="ventanapago">
+                    <h2>Medio de Pago</h2>
+                    <button><img class="tarjeta" src="./assets/IMG/tarjeta-de-credito.png" alt=""></button>
+                    <button><img class="tranferencia" src="./assets/IMG/transferencia-bancaria.png" alt=""></button>
+                    <button><img class="efectivo" src="./assets/IMG/efectivo.png" alt=""></button>
+                    <label for="Nombre">Seleccione Pago</label>
+                    <div class="metododepago">
+
+                    </div>
+                    
+                </div>
+                <div class="paqueteseleccionado">
+
+                </div>
+                <input type="submit" class="enviarreserva" value="continuar...">
+        </form>
+</div>
+    </main>
     <aside></aside>
-    <footer></footer>
+    <footer>
+        <img class="redes" src="./assets/IMG/email.png" alt="">
+        <img class="redes" src="./assets/IMG/facebook.png" alt="">
+        <img class="redes" src="./assets/IMG/instagram.png" alt="">
+        <img class="redes" src="./assets/IMG/mapa.png" alt="">
+    </footer>
     
    <script src="./assets/js/main.js"></script>
+   
 </body>
 </html>

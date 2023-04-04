@@ -1,0 +1,56 @@
+[
+    {
+        "destino": "brasil",
+        "precio": 15000,
+        "hospedaje": "Hotel",
+        "trasladoAereo": "AerolineasArgentina",
+        "trasladoTierra": "auto",
+        "excurciones": 5,
+        "noches": 9
+    },
+    {
+        "destino": "colombia",
+        "precio": 17000,
+        "hospedaje": "Hotel",
+        "trasladoAereo": "United Airlines",
+        "trasladoTierra": "auto",
+        "excurciones": 4,
+        "noches": 10
+    },
+    {
+        "destino": "peru",
+        "precio": 12000,
+        "hospedaje": "Hotel",
+        "trasladoAereo": "Copa Airlines",
+        "trasladoTierra": "auto",
+        "excurciones": 4,
+        "noches": 11
+    },
+    {
+        "destino": "mexico",
+        "precio": 12000,
+        "hospedaje": "Hotel",
+        "trasladoAereo": "Copa Airlines",
+        "trasladoTierra": "auto",
+        "excurciones": 4,
+        "noches": 9
+    },
+    {
+        "destino": "uruguay",
+        "precio": 10000,
+        "hospedaje": "Hotel",
+        "trasladoAereo": "AerolineasArgentina",
+        "trasladoTierra": "auto",
+        "excurciones": 4,
+        "noches": 8
+    },
+    {
+        "destino": "chile",
+        "precio": 80000,
+        "hospedaje": "Hotel",
+        "trasladoAereo": "Copa Airlines",
+        "trasladoTierra": "auto",
+        "excurciones": 4,
+        "noches": 5
+    }
+]

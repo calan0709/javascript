@@ -1,0 +1,277 @@
+main{ 
+        .Emergentebienvenido{display: none;
+                .tarjeta1{
+                        width: 30%;
+                        justify-content: center;
+                        margin: 1px;
+                        position:absolute;
+                        left:35%;
+                        top: 25%;
+                        min-width: 2%;
+                        min-height: 40%;
+                        border: solid;
+                        border-radius: 40px;
+                        background-color: rgba(0, 0, 0, 0.774);
+                        align-items: center;
+                        text-align: center;
+                        &:hover{-webkit-box-shadow: 11px 13px 37px 3px rgba(0, 0, 0, 0.452);}
+                        h1{color: rgb(255, 255, 255);
+                                font-size: 50px;
+                                align-items: center;
+                                text-align: center;
+                                font-family: texto1;
+                                grid-column: 1/3;
+                        }
+                        h2{color: rgb(255, 255, 255);
+                                //text-align: end;
+                                font-size: 40px;
+                        }
+                        #datos{display: flex;
+                                flex-direction: column;
+                                text-align: center;
+                                align-items: center;
+                                .dato{
+                                        label{font-size: 30px;
+                                                color: rgb(255, 255, 255);
+                                                background-color: rgba(10, 10, 10, 0.075);
+                                                font-family: texto1;
+                                        }
+                                        input{width: 35%;
+                                                margin: 3px;
+                                                padding: 3px;
+                                                font-size: 20px;
+                                                text-align: center;
+                            }
+                 }
+                 .enviar{margin: 5px;
+                        font-size: 20px;}
+                 #cerrarbienvenida{
+                       width: 20%;
+                       margin: 30px;
+                }
+        }
+        }
+        
+        button{width: 20%;
+                margin: 4px;}
+        }
+        .tarjetas{display: none;
+                #cerrartarjetas{position:absolute;
+                        width: 9%;
+                        top: 5%;
+                        left: 90%;
+                        &:hover{-webkit-box-shadow: 11px 13px 37px 3px rgba(0, 0, 0, 0.089);}
+                 }
+        .paquetes{width: 98%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin: 1px;
+                position:absolute;
+                left:1%;
+                top: 25%;
+                .viajes{width: 100%;
+                        margin: 2px;
+                        border: solid;
+                        background-color: rgba(255, 251, 251, 0.658);
+                        border-color: rgb(12, 100, 141);
+                        font-size: 20px;
+                        &:hover{-webkit-box-shadow: 11px 13px 37px 3px rgba(7, 7, 12, 0.219);}
+                        h2{padding: 4px;
+                                margin: 4px;}
+                        img{width: 100%;
+                                justify-content: center;}
+                        h3{color: rgb(241, 241, 241);
+                        padding:3px;
+                        margin: 3px;}
+                        .caja{width: 100%;
+                                textarea{width: 98%;
+                                        padding: 1px;
+                                        margin: 1px;
+                                        text-align: center;
+                                        align-items: center;}}
+                        }
+                
+        }
+        }
+        .cuestion{ display: none;
+                min-height: 250px;
+                position:absolute;
+                left: 34%;
+                top: 25%;
+                width: 100%;
+        .consultasusuario{
+                display: flex;
+                flex-direction: column;
+                width: 30%;
+                background-color: rgba(8, 8, 8, 0.774);
+                border: solid 1px;
+                padding: 33px;
+                text-align:center;
+                border-radius: 20px;
+                img{width: 100%;}
+                &:hover{-webkit-box-shadow: 11px 13px 37px 3px rgba(0, 198, 248, 0.562);}
+                
+                h2{width: 100%;
+                        color: #beb423;
+                        font-size: 50px;
+                        margin: 1px;
+                        padding: 2px;}
+                form{display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    text-align: center;
+                    width: 100%;
+                        label{width: 100%;
+                                font-size: 25px;
+                                text-align:center;
+                                color: #a59c23;
+                                margin: 1px;
+                                padding: 2px;}
+                        input{width: 100%;
+                                font-size: 20px;
+                                text-align:center;
+                                margin: 1px;
+                                padding: 2px;
+                                background-color:transparent;
+                                color: aliceblue;}
+                        textarea{width: 100%;
+                                font-size: 20px;
+                                background-color:transparent;
+                                color: aliceblue;}
+                        .enviar{padding: 2px;
+                                margin: 2px;}
+                    }
+                #cerrar{position:absolute;
+                        width: 14%;
+                        top: 5%;
+                        left: 90%;
+                        &:hover{-webkit-box-shadow: 11px 13px 37px 3px rgba(0, 0, 0, 0.089);}
+                 }
+        }
+}
+.reservasusuario{display: none;
+        width: 60%;
+        justify-content: center;
+        margin: 1px;
+        position:absolute;
+        left:18%;
+        top: 12%;
+        min-width: 3%;
+        min-height: 80%;
+        border: solid;
+        border-radius: 40px;
+        background-color: rgba(0, 0, 0, 0.774);
+        align-items: center;
+        text-align: center;
+        #cerrarreserva{
+                position:absolute;
+                        width: 7%;
+                        top: 1%;
+                        left: 90%;
+                        &:hover{-webkit-box-shadow: 11px 13px 37px 3px rgba(0, 0, 0, 0.089);}
+        }
+form{
+        .ventanareserva{
+                display: flex;
+                flex-direction: column;
+                width: 30%;
+                justify-content: center;
+                margin: 1px;
+                position:absolute;
+                left:2%;
+                top: 15%;
+                min-width: 3%;
+                min-height: 70%;
+                border: solid rgb(18, 199, 199);
+                h2{color: white;
+                        font-size: 50px;}
+                label{color: white;
+                        font-size: 25px;}
+                input{font-size: 25px;
+                        text-align: center;
+                        color: white;
+                        background-color:transparent;}
+                &:hover{-webkit-box-shadow: 11px 13px 37px 3px rgba(0, 174, 255, 0.39);}
+                button{
+                        color: #a59c23;
+                        background-color: transparent;
+                        font-size: 20px;
+                }
+        }
+        .ventanapago{
+                display: flex;
+                flex-direction: column;
+                width: 30%;
+                justify-content: center;
+                margin: 1px;
+                position:absolute;
+                left:35%;
+                top: 15%;
+                min-width: 3%;
+                min-height: 70%;
+                border: solid rgb(18, 199, 199);
+                align-items: center;
+                h2{color: white;
+                font-size: 50px;}
+                label{color: white;
+                        font-size: 25px;
+                        margin: 5px;}
+                input{font-size: 25px;
+                        color: white;
+                        text-align: center;
+                background-color:transparent;}
+                &:hover{-webkit-box-shadow: 11px 13px 37px 3px rgba(255, 255, 255, 0.39);}
+                button{background-color: transparent;
+                        img{
+                        margin: 5px;
+                        width: 15%;
+                        top: 1%;
+                        left: 90%;   
+                        }
+                }
+                .metododepago{background-color: transparent;
+                        font-size: 20px;
+                        p{color: white;}
+                }
+                
+        }
+        .paqueteseleccionado{
+                color: white;
+                font-size: 26px;
+                width: 30%;
+                justify-content: center;
+                margin: 1px;
+                position:absolute;
+                left:68%;
+                top: 15%;
+                min-width: 3%;
+                min-height: 70%;
+                border: solid rgb(18, 199, 199);
+                &:hover{-webkit-box-shadow: 11px 13px 37px 3px rgba(0, 174, 255, 0.39);}
+        }
+        .enviarreserva{
+                font-size: 24px;
+                color: #a59c23;
+                background-color: #00000025;
+                position: absolute;
+                width: 50%;
+                top: 90%;
+                left: 40%;
+                &:hover{-webkit-box-shadow: 11px 13px 37px 3px rgba(0, 174, 255, 0.39);}
+        }
+}
+}
+
+}
+
+footer{
+        display: flex;
+
+        .redes{
+                margin: 30px;
+               width: 3%;
+               &:hover{-webkit-box-shadow: 11px 13px 37px 3px rgba(9, 9, 243, 0.747);}
+        }
+}
